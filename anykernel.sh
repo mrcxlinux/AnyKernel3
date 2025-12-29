@@ -42,14 +42,13 @@ case $kernel_version in
 esac
 
 ui_print " "
-ui_print "$(echo '5YaF5qC45p6E5bu66ICFOiDlsI8g5bCPdw==' | base64 -d)"
-ui_print "$(echo 'S2VybmVsX2J1aWxkZXIgOiB4aWFveGlhb3c=' | base64 -d)"
+ui_print "inazuma. Kernel | OnePlus 13"
+ui_print "Only for OxygenOS/ColorOS!"
+ui_print "Maintained by @mrcxlinux"
 ui_print " "
-ui_print "$(echo '56aB5q2i5pyq57uP6K645Y+v5LqM5qyh5L+u5pS55oiW6L2s5ZSu77yM6L+d6ICF5b+F56m2' | base64 -d)"
-ui_print "$(echo 'Tm8gdW5hdXRob3JpemVkIG1vZGlmaWNhdGlvbiBvciByZXNhbGUgYWxsb3dlZC4gVmlvbGF0b3JzIHdpbGwgYmUgcHJvc2VjdXRlZC4=' | base64 -d)"
+ui_print "Special thanks to cctv18 and xiaoxiaow for making this possible!"
+ui_print "Join my telegram: @mrcsreleases | @mrcsdiscussion"
 ui_print " "
-ui_print "$(echo '5Yqg5YWl5oiR5Lus55qEVGVsZWdyYW3nvqTnu4QgOiBAZ2tpX2tlcm5lbHNfeGlhb3hpYW93' | base64 -d)"
-ui_print "$(echo 'Sm9pbiBPdXIgVGVsZWdyYW0gR3JvdXAhIDogQGdraV9rZXJuZWxzX3hpYW94aWFvdw==' | base64 -d)"
 ui_print " " "  -> ksu_supported: $ksu_supported"
 $ksu_supported || abort "  -> Non-GKI device, abort."
 
