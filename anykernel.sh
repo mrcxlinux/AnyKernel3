@@ -42,13 +42,19 @@ case $kernel_version in
 esac
 
 ui_print " "
-ui_print "inazuma. Kernel | OnePlus 13"
-ui_print "Only for OxygenOS/ColorOS!"
-ui_print "Maintained by @mrcxlinux"
+ui_print "inazuma. Kernel | 6.6.118"
+ui_print "创作者 / Creator： 陈华 (@mrcxlinux)"
 ui_print " "
+ui_print "特别感谢 cctv18 和 小小w，让这一切成为可能！"
+ui_print "加入我的 Telegram：@mrcsreleases | @mrcsdiscussion"
 ui_print "Special thanks to cctv18 and xiaoxiaow for making this possible!"
 ui_print "Join my telegram: @mrcsreleases | @mrcsdiscussion"
+
 ui_print " "
+ui_print "我的项目完全免费，我不接受任何捐赠！"
+ui_print "任何盗用并出售我作品的人都应该感到羞愧。"
+ui_print "My projects are entirely free and I do not accept donations!"
+ui_print "Anyone stealing from me and selling should be ashamed."
 ui_print " " "  -> ksu_supported: $ksu_supported"
 $ksu_supported || abort "  -> Non-GKI device, abort."
 
